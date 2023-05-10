@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="destaque">
+      <h1>Formulário de Cadastro</h1>
+      <form id="cadastro-form">
+        <input type="text" id="name" name="name" placeholder="Nome" required>
+        <br><br>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br><br>
+        <input type="password" id="password" name="password" placeholder="senha" required>
+        <br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div id="message"></div>
+
+    <script src="cadastro-api.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="destaque">
+      <h1>Gerenciador de Tarefas</h1>
+      <form id="add-form">
+        <input type="text" id="task-input" name="task-input" placeholder="Nome da Tarefa" required>
+        <br><br>
+        <button type="submit">Adicionar</button>
+      </form>
+      <br>
+      <h2>Minhas Tarefas</h2>
+      <ul id="task-list"></ul>
+    </div>
+    <div id="message"></div>
+
+    <form id="login-form">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+      <br><br>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      <br><br>
+      <button type="submit">Login</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/login-api.js"></script>
+    <script src="/toDoLista-api.js"></script>
+  </body>
+</html>
